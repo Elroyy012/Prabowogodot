@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cwlbbji1nh5aj"]
+
+[ext_resource type="Script" uid="uid://sb5657i05cgt" path="res://character_body_2d.gd" id="1_f50pn"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=485016618]
+position = Vector2(396, 231)
+script = ExtResource("1_f50pn")
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="." unique_id=435263614]
+position = Vector2(-75, -1.300003)
+polygon = PackedVector2Array(-82, -80.5, -82, 83.5, 78, 38.5, 78, -28.5)
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1581398966]
+position = Vector2(3, 3.199997)
+offset = Vector2(-354, -182)
+polygon = PackedVector2Array(196, 95, 196, 262, 353, 216, 354, 152)
+
+[node name="Node" type="Node" parent="Polygon2D" unique_id=1986288296]
+
+[node name="Polygon2D2" type="Polygon2D" parent="Polygon2D" unique_id=1928540876]
+position = Vector2(24, 35.800003)
+color = Color(0.68235296, 0.23921569, 1, 1)
+polygon = PackedVector2Array(-26, -50, -23, -49, 118, -74, 118, -15, -23, -26)
